@@ -1,4 +1,4 @@
-FROM python:2-alpine
+FROM python:3.10.10-alpine
 LABEL maintainer "Jessie Frazelle <jess@linux.com>"
 
 ENV LANG "en_US.UTF-8"

@@ -6,7 +6,7 @@
 #	--name ykpersonalize \
 #	jess/ykpersonalize
 #
-FROM ubuntu:16.04
+FROM ubuntu:rolling
 LABEL maintainer "Jessie Frazelle <jess@linux.com>"
 
 RUN apt-get update && apt-get install -y \

@@ -7,7 +7,7 @@
 #	--name rainbowstream \
 #	jess/rainbowstream
 #
-FROM python:2-alpine
+FROM python:3.10.10-alpine
 LABEL maintainer "Jessie Frazelle <jess@linux.com>"
 
 RUN apk --no-cache add \

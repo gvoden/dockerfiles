@@ -1,4 +1,4 @@
-FROM python:2-alpine
+FROM python:3.10.10-alpine
 
 RUN apk add --no-cache --virtual .build-deps \
 		build-base \

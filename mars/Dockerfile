@@ -1,4 +1,4 @@
-FROM openjdk:8-alpine
+FROM openjdk:20-rc-jdk-slim
 
 RUN set -x \
 	&& apk add --no-cache --virtual .build-deps \

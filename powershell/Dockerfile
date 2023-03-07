@@ -1,4 +1,4 @@
-FROM debian:stretch-slim
+FROM debian:11.6-slim
 LABEL maintainer "Christian Koep <christiankoep@gmail.com>"
 
 ENV POWERSHELL_VERSION 7.0.1

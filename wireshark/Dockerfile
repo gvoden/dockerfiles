@@ -7,7 +7,7 @@
 #	--name wireshark \
 #	jess/wireshark
 #
-FROM ubuntu:16.04
+FROM ubuntu:bionic
 LABEL maintainer "Jessie Frazelle <jess@linux.com>"
 
 ENV DEBIAN_FRONTEND=noninteractive
